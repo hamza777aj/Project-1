@@ -15,17 +15,17 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: rgb(255, 255, 255);
 }
 a:hover {
-  color: #6633ff;
+  color: rgb(200, 26, 79);
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: rgb(224,26,79);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/newbackground1.jpeg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -85,8 +85,8 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: rgb(224, 26, 79);
+  color: rgb(255, 255, 255);
 }
 .card {
   margin: 30px;
@@ -101,7 +101,19 @@ header .profile-image:hover {
 .card:hover {
   border-color: #ff99ff;
 }
-
+.resume-card {
+  margin: auto;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.resume-card:hover {
+  border-color: #ff99ff;
+}
 ul.skills {
   padding: 0;
   text-align: center;
@@ -150,9 +162,6 @@ a.social {
   background-size: 30px 30px;
   opacity: .4;
   transition: all .5s;
-}
-a.twitter {
-  background-image: url(images/twitter.svg);
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
