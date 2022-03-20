@@ -164,10 +164,10 @@ a.social {
   transition: all .5s;
 }
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(img/linkedin.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(img/github.svg);
 }
 a.social:hover {
   opacity: 1;
